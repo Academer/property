@@ -658,9 +658,11 @@ main {
 }
 @media screen and (max-width: 400px) {
   * {
-    font-size: 33%;
+    font-size: 30%;
   }
-  html {
+  html,
+  body {
+    /* overflow-x: hidden; */
     /* width: 100vw; */
   }
   body {
@@ -671,21 +673,29 @@ main {
     /* width: 100vw; */
   }
   aside {
-    width: 22rem;
+    width: 30rem;
     position: sticky;
     align-self: flex-start;
   }
+  .pimg {
+    width: 35rem;
+  }
+  .pimg img {
+    width: 35rem;
+  }
   .container {
-    width: 90vw;
+    width: 95vw;
     margin: 10rem auto;
     display: flex;
     /* flex-direction: column; */
     gap: 2rem;
+    margin-left: 5rem;
   }
   .propertyBox {
     display: flex;
     flex-direction: column;
   }
+
   main .head {
     padding-left: 0;
   }
