@@ -59,7 +59,7 @@ aside {
   width: 120rem;
   margin: 0 auto;
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 .body1 {
   display: flex;
@@ -96,7 +96,7 @@ main .select {
   border-bottom: 1px solid #00000010;
 }
 main {
-  width: 95rem;
+  /* width: 95rem; */
 }
 
 .s1 {
@@ -171,7 +171,7 @@ main {
 .propertyBox {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: -8rem;
+  gap: 2rem;
 }
 .pbox img {
   cursor: pointer;
@@ -198,4 +198,28 @@ main {
   cursor: pointer;
   top: 0.7rem;
   right: 0.7rem;
+}
+@media screen and (max-width: 750px) {
+  body {
+    height: auto;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    display: flex;
+    flex-direction: column;
+  }
+  main .head {
+    padding-left: 0;
+  }
 }
