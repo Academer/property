@@ -10,17 +10,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 html {
-  font-size: 62.5%;
   font-family: "Montserrat";
 }
 
 body {
   color: #333;
 }
-
+#location {
+  font-size: 1.4rem;
+}
 .hero-section {
   background-image: url("hero mohali.webp");
   background-size: cover;
@@ -39,16 +41,25 @@ body {
   padding-top: 2rem;
   padding-left: 10rem;
   padding-right: 10rem;
+  gap: 2rem;
 }
 
 .links {
   display: flex;
   gap: 1rem;
 }
+.link {
+  font-size: 1.5rem;
+}
 
 .icon {
   width: 2.4rem;
   height: 2.4rem;
+}
+.company-name {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .nav-links {
@@ -66,7 +77,7 @@ body {
   gap: 0.4rem;
 }
 
-.company-name {
+.company-logo {
   font-size: 2rem;
 }
 
@@ -75,13 +86,18 @@ body {
 }
 
 .btn-nav {
-  padding: 1rem 1.6rem;
+  padding: 1rem 2.3rem;
+  margin-left: 2rem;
   background-color: #333;
+  font-size: 1.5rem;
   color: #fff;
   cursor: pointer;
+  border: 1px solid #333;
+  transition: all 0.1s;
 }
 
 .btn-nav:hover {
+  transition: all 0.1s;
   background-color: #f2f2f2;
   color: #333;
   border: 1px solid #333;
@@ -103,19 +119,21 @@ select {
 
 .search-bar {
   background-color: #fff;
-  width: 60rem;
+  width: 70rem;
   margin-top: 3rem;
   margin-left: 10rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   /* padding: 1rem 2rem; */
 }
 
 .search-top {
   border-bottom: 1px solid #333;
-  padding: 1rem 2rem;
+  /* padding: 1.5rem 2rem; */
 }
 
 .search-list {
   display: flex;
+  /* gap: 2rem; */
   justify-content: space-between;
 }
 
@@ -123,22 +141,21 @@ a {
   text-decoration: none;
   color: #333;
   cursor: pointer;
-  font-size: 1.2rem;
-  transition: all 0.5s;
-}
-
-a:hover {
-  border-bottom: 1.6px #333 solid;
+  /* font-size: 1.2rem; */
+  /* transition: all 0.5s; */
 }
 
 select {
   border: none;
 }
-
-input {
+.link:hover {
+  color: #666;
+}
+.search input {
   border: none;
   /* text-align: center; */
   width: 100%;
+  font-size: 1.5rem;
   border: none;
   padding: 0.8rem 0;
 }
@@ -151,29 +168,42 @@ input {
 }
 
 .search ion-icon {
-  width: 1.6rem;
-  height: 1.6rem;
+  font-size: 2rem;
 }
 
 .search-bottom {
   display: grid;
-  grid-template-columns: 1fr 1fr 7fr 1fr;
+  grid-template-columns: 1fr 2fr 5fr 1fr;
   padding: 1rem 2rem;
   column-gap: 2rem;
+}
+.search-bottom select {
+  font-size: 1.5rem;
 }
 
 .btn-search {
   padding: 0.8rem 2.4rem;
   border: none;
   border-radius: 2px;
-  transition: all 0.5s;
+  transition: all 0.1s;
   cursor: pointer;
   background-color: #333;
+  font-size: 1.5rem;
   color: #fff;
+  border: 1px solid #333;
 }
 
 .btn-search:hover {
   background-color: #f2f2f2;
   color: #333;
   border: 1px solid #333;
+}
+
+.search-list a {
+  font-size: 1.7rem;
+  padding: 1.5rem 1.5rem;
+}
+.search-list a:hover {
+  background-color: #33333350;
+  /* color: #fff; */
 }
