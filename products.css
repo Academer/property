@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: Helvetica;
+  font-size: 62.5%;
+  color: #333;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+}
+aside {
+  background-color: #fff;
+  width: 23rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  /* background-color: aqua; */
+  /* border: 1px solid #00000010; */
+  padding: 0 2rem;
+}
+.box {
+  padding: 2rem;
+  border-bottom: 1px solid #00000010;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.head ion-icon {
+  font-size: 1.8rem;
+}
+.box2 {
+  margin-top: 2rem;
+  display: flex;
+  /* width: 100%; */
+  gap: 1rem;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.box2 p {
+  font-size: 1.3rem;
+}
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+.body1 {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+.body1 select {
+  width: 10rem;
+  border: 1px solid #00000010;
+  padding: 0.7rem;
+  font-size: 1.3rem;
+}
+.line {
+  width: 3rem;
+  background-color: #00000060;
+  margin: 0 0.5rem;
+  height: 1px;
+}
+main .head {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  font-size: 1.8rem;
+  padding: 1.5rem 2rem;
+  /* border-bottom: 1px solid #00000010; */
+}
+main .select {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  /* justify-content: center; */
+  font-size: 1.8rem;
+  /* padding: 1rem 2rem; */
+  border-bottom: 1px solid #00000010;
+}
+main {
+  width: 95rem;
+}
+
+.s1 {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #fff;
+}
+.activ {
+  border-bottom: 2px solid #333;
+  font-weight: 700;
+}
+.pbox {
+  padding: 0.7rem;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  width: fit-content;
+}
+.pbox img {
+  border-radius: 1rem;
+  width: 25rem;
+}
+.type {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.tbox {
+  padding: 1rem 2rem;
+  background-color: #f1f1f1;
+  color: #00000070;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+.price {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.name {
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.features {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.f1 {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
+.f1 ion-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  background-color: #00ffff50;
+}
+.f1 p {
+  font-size: 1.2rem;
+}
+.propertyBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: -8rem;
+}
+.pbox img {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.pimg {
+  overflow: hidden;
+}
+.pbox img:hover {
+  transition: all 0.1s;
+  transform: scale(1.5) rotate(25deg);
+  /* transform: rotate(45deg); */
+}
