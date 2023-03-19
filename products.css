@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f1f1f1;
-  height: 100vh;
+  height: auto;
   width: 100vw;
 }
 aside {
@@ -57,7 +57,7 @@ aside {
 }
 .container {
   width: 120rem;
-  margin: 0 auto;
+  margin: 10rem auto;
   display: flex;
   gap: 4rem;
 }
@@ -175,15 +175,15 @@ main {
 }
 .pbox img {
   cursor: pointer;
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 .pimg {
   overflow: hidden;
   position: relative;
 }
 .pbox img:hover {
-  transition: all 0.1s;
-  transform: scale(1.5) rotate(25deg);
+  transition: all 0.2s;
+  transform: scale(1.2);
   /* transform: rotate(45deg); */
 }
 .like ion-icon {
@@ -193,13 +193,423 @@ main {
   background-color: #fff;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
 }
+.like ion-icon:hover {
+  background-color: #f2f2f2;
+}
 .like {
   position: absolute;
   cursor: pointer;
   top: 0.7rem;
   right: 0.7rem;
 }
+
+@media screen and (max-width: 1350px) {
+  * {
+    font-size: 57%;
+  }
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  * {
+    font-size: 52%;
+  }
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1050px) {
+  * {
+    font-size: 50%;
+  }
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  * {
+    font-size: 47%;
+  }
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 960px) {
+  * {
+    font-size: 43%;
+  }
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 880px) {
+  * {
+    font-size: 40%;
+  }
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .propertyBox {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 820px) {
+  * {
+    font-size: 50%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
 @media screen and (max-width: 750px) {
+  * {
+    font-size: 46%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  * {
+    font-size: 43%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  * {
+    font-size: 40%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 36%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  * {
+    font-size: 33%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  * {
+    font-size: 30%;
+  }
+  body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  aside {
+    width: 22rem;
+    position: sticky;
+    align-self: flex-start;
+  }
+  .container {
+    width: 95vw;
+    margin: 10rem auto;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+
+  .propertyBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+
+  main .head {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
   * {
     font-size: 43%;
   }
