@@ -179,9 +179,23 @@ main {
 }
 .pimg {
   overflow: hidden;
+  position: relative;
 }
 .pbox img:hover {
   transition: all 0.1s;
   transform: scale(1.5) rotate(25deg);
   /* transform: rotate(45deg); */
+}
+.like ion-icon {
+  padding: 0.7rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+.like {
+  position: absolute;
+  cursor: pointer;
+  top: 0.7rem;
+  right: 0.7rem;
 }
