@@ -8,9 +8,10 @@
   color: #333;
 }
 body {
-  display: flex;
+  /* display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background-color: #f1f1f1;
   height: auto;
   width: 100vw;
@@ -121,6 +122,14 @@ main {
   border-radius: 1rem;
   width: 25rem;
 }
+.overlay {
+  width: 25rem;
+  height: 150rem;
+  background-color: #00000070;
+  position: absolute;
+  top: 0;
+  z-index: 99999;
+}
 .type {
   padding: 1rem 0;
   display: flex;
@@ -178,31 +187,65 @@ main {
   transition: all 0.2s;
 }
 .pimg {
+  border-radius: 1rem;
   overflow: hidden;
   position: relative;
 }
 .pbox img:hover {
   transition: all 0.2s;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   /* transform: rotate(45deg); */
 }
+
 .like ion-icon {
   padding: 0.7rem;
   font-size: 2rem;
   border-radius: 50%;
   background-color: #fff;
+
+  z-index: 9999999999999999999999999999999999999;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
 }
 .like ion-icon:hover {
+  z-index: 999999999999999999999999999999999999;
   background-color: #f2f2f2;
 }
 .like {
   position: absolute;
   cursor: pointer;
+
+  z-index: 999999999999999999999999999999999999;
   top: 0.7rem;
   right: 0.7rem;
 }
-
+.headimg {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: #fff;
+  font-size: 2rem;
+  z-index: 999999999999999999999999999999999999;
+  display: none;
+}
+.overlay {
+  transition: all 0.1s;
+  cursor: pointer;
+  display: none;
+}
+.pimg {
+  transition: all 0.1s;
+}
+.pimg:hover {
+  transition: all 0.1s;
+}
+.pimg:hover .overlay {
+  transition: all 0.1s;
+  display: block;
+}
+.pimg:hover .headimg {
+  transition: all 0.1s;
+  display: block;
+}
 @media screen and (max-width: 1350px) {
   * {
     font-size: 57%;

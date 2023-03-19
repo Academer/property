@@ -1,0 +1,179 @@
+/* -------01 TYPOGRAPHY SYSTEM
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat";
+}
+
+body {
+  color: #333;
+}
+
+.hero-section {
+  background-image: url("hero mohali.webp");
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  /* width: 100%; */
+}
+
+/* ************************************** */
+/* navigation */
+/* ************************************** */
+
+.navigation-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.login-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.company-name {
+  font-size: 2rem;
+}
+
+.link {
+  font-size: 1.6rem;
+}
+
+.btn-nav {
+  padding: 1rem 1.6rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-nav:hover {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #333;
+}
+
+select {
+  background: none;
+}
+
+/* ********************************** */
+
+.heading-1 {
+  font-size: 6rem;
+  font-weight: 500;
+  width: 60rem;
+  padding-top: 15rem;
+  padding-left: 10rem;
+}
+
+.search-bar {
+  background-color: #fff;
+  width: 60rem;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  /* padding: 1rem 2rem; */
+}
+
+.search-top {
+  border-bottom: 1px solid #333;
+  padding: 1rem 2rem;
+}
+
+.search-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+
+a:hover {
+  border-bottom: 1.6px #333 solid;
+}
+
+select {
+  border: none;
+}
+
+input {
+  border: none;
+  /* text-align: center; */
+  width: 100%;
+  border: none;
+  padding: 0.8rem 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.search ion-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.search-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 7fr 1fr;
+  padding: 1rem 2rem;
+  column-gap: 2rem;
+}
+
+.btn-search {
+  padding: 0.8rem 2.4rem;
+  border: none;
+  border-radius: 2px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-search:hover {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #333;
+}
