@@ -200,8 +200,12 @@ main {
   right: 0.7rem;
 }
 @media screen and (max-width: 750px) {
+  * {
+    font-size: 43%;
+  }
   body {
     height: auto;
+    overflow-x: hidden;
   }
   aside {
     width: 22rem;
