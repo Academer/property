@@ -14,7 +14,7 @@
 }
 
 html {
-  font-family: "Montserrat";
+  font-family: "Helvetica";
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   font-size: 1.4rem;
 }
 .hero-section {
-  background-image: url("hero mohali.webp");
+  background-image: url("img/hero mohali.webp");
   background-size: cover;
   background-repeat: none;
   height: 100vh;
@@ -206,4 +206,419 @@ select {
 .search-list a:hover {
   background-color: #33333350;
   /* color: #fff; */
+}
+
+/* ////////////////////////// */
+
+.for-free {
+  background-color: #fff8e2;
+  color: #333;
+  width: 120rem;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  border-radius: 0.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-free {
+  font-size: 4rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.para-internal {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.free {
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.btn-free {
+  background-color: #ffc72c;
+  font-weight: 600;
+  padding: 1.8rem 3.4rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  transition: all 0.1s;
+}
+
+.btn-free:hover {
+  cursor: pointer;
+  /* color: #ffc72c; */
+  background-color: #e6b328;
+  /* border: 1px solid #ffc72c; */
+}
+
+.advice-section {
+  width: 120rem;
+  margin: 10rem auto;
+}
+
+.heading-advice {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.icon-advice {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.box-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.advice-para {
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.advice-box {
+  display: flex;
+  gap: 2rem;
+}
+
+.boxes {
+  border: 1px solid #f3f3f3;
+  padding: 2rem 1.2rem;
+  position: relative;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+}
+
+.boxes::after {
+  content: "Certified";
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.4rem;
+  background-color: #ffc72c;
+  padding: 0.4rem 0.8rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+}
+
+.advice-link {
+  font-size: 1.4rem;
+  color: #648aac;
+  display: flex;
+  align-items: center;
+}
+
+.advice-link:hover {
+  color: #324556;
+}
+
+.icon-arrow {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #648aac;
+  padding-left: 0.2rem;
+}
+
+/* testimonial */
+.dont {
+  margin: 5rem auto;
+  width: 120rem;
+}
+
+.dont h1 {
+  font-size: 2.4rem;
+  color: #242a30;
+  margin-bottom: 0.8rem;
+}
+
+.dont h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #3d463d;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.rv1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.rvwbox {
+  display: flex;
+  gap: 2rem;
+}
+
+.rvw2 {
+  padding-right: 2rem;
+}
+.rvw1 img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.rvw2 h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rvw2 h2 ion-icon {
+  font-size: 2rem;
+  color: gold;
+}
+
+.rvw2 p {
+  font-size: 1.4rem;
+  color: #3d463d;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.rvw2 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0d7a5f;
+}
+
+.onetwothreefour {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.onetwothreefour ion-icon {
+  font-size: 2.6rem;
+}
+.onetwothreefour p {
+  font-size: 1.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  font-weight: 700;
+  color: #022022;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.onetwoactive {
+  background-color: #022022 !important;
+  color: #fff !important;
+}
+.inspired {
+  padding: 10rem 0;
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.inspired h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+  color: #022022;
+}
+
+.inspired h2 {
+  font-size: 1.6rem;
+  color: #3d463d;
+}
+
+.inspire {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inspir1 {
+  display: flex;
+  gap: 2rem;
+}
+.inspir1 img {
+  height: 32.7rem;
+}
+
+.inspirbox {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.inspirbox p {
+  font-size: 1.4rem;
+  color: #3d463d;
+}
+
+.inspirbox a {
+  color: #0d7a5f;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.inspirbox img {
+  height: 20.7rem;
+  width: 38.9rem;
+}
+.inspir2 {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 4rem; */
+}
+
+.bxxc {
+  padding: 0 !important;
+}
+.bccv {
+  padding-bottom: 5rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* padding: 4rem; */
+  padding-left: 2rem;
+  /* padding-top: 2rem; */
+}
+
+.started {
+  width: 100%;
+  background-color: #f9fafb;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.started h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #022022;
+  margin-bottom: 4rem;
+}
+
+.start1 {
+  width: 27.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.start1 img {
+  width: 23.8rem;
+  height: 20rem;
+}
+
+.start1 p {
+  font-size: 1.8rem;
+  color: #3d463d;
+}
+
+.start1 button {
+  width: 20rem;
+  align-self: center;
+  padding: 1.2rem 2.2rem;
+  font-size: 1.8rem;
+}
+
+.getstarted {
+  display: flex;
+  gap: 10rem;
+  /* margin: 0 auto; */
+}
+.startline {
+  height: auto;
+  width: 0.2rem;
+  background-color: #00000040;
+}
+
+/* footer */
+
+.section-footer {
+  /* width: 120rem; */
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 0 10rem;
+  padding-top: 5rem;
+}
+
+.heading-footer {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.4rem;
+}
+
+.ul-footer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.link-list {
+  color: #ffffff99;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.link-list:hover,
+.link-list:active{
+  color:#999;
+}
+
+.foot-para {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;+
+
+}
+
+.icon-footer{
+  color:#fff;
+  width:2rem;
+  height:2rem;
+}
+
+.icon-container{
+  display:flex;
+  gap:1rem;
+}
+footer{
+  padding-bottom: 3rem !important;
+}
+.copyright{
+  background-color: #333;
+  padding: 1rem 3rem 3rem  3rem !important;
+  /* width: 120rem; */
+  margin: 0 auto;
+}
+.copyright p{
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+
 }
