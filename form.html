@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="form.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
     <title>Document</title>
   </head>
   <body>
@@ -56,10 +61,45 @@
           </div>
         </div>
 
+        <div class="amenity">
+          <p class="p-heading">Amenities</p>
+          <div class="buttons">
+            <button class="btn">Pool</button>
+            <button class="btn">Internet</button>
+            <button class="btn">Gym</button>
+          </div>
+        </div>
+
         <form class="input-form">
-          <label>Date</label><br />
-          <input class="calender" type="date" placeholder="12/07/23" />
-          <input class="input-box" type="text" placeholder="property details" />
+          <h3 class="about-heading">Property Details</h3>
+          <input required class="input-half" type="text" placeholder="City*" />
+          <input
+            required
+            class="input-half"
+            type="text"
+            placeholder="Locality*" />
+          <input class="" type="text" placeholder="Project Name (Optional)" />
+
+          <p class="unit-head">Unit Types*</p>
+          <div class="buttons">
+            <button class="btn">1 BHK</button>
+            <button class="btn">2 BHK</button>
+            <button class="btn">3 BHK</button>
+            <button class="btn">4 BHK</button>
+            <button class="btn">4+ BHK</button>
+          </div>
+
+          <input
+            required
+            class="input-half"
+            type="text"
+            placeholder="Built up* (Sq.Ft)" />
+
+          <input
+            required
+            class="input-half"
+            type="text"
+            placeholder="Carpet Area* (Sq.Ft)" />
         </form>
 
         <div class="frame">
@@ -136,14 +176,28 @@
             <button class="btn">Builder</button>
           </div>
           <form>
-            <input class="input-box" type="text" placeholder="Full Name" />
-            <input class="input-box" type="text" placeholder="Email" />
-            <input class="input-box" type="text" placeholder="Mobile No." />
+            <div class="icon-container">
+              <ion-icon class="form-icon" name="person-outline"></ion-icon>
+              <input class="input-box" type="text" placeholder="Full Name" />
+            </div>
+
+            <div class="icon-container">
+              <ion-icon class="form-icon" name="mail-outline"></ion-icon>
+              <input class="input-box" type="text" placeholder="Email" />
+            </div>
+
+            <div class="icon-container">
+              <ion-icon class="form-icon" name="call-outline"></ion-icon>
+              <input class="input-box" type="text" placeholder="Mobile No." />
+            </div>
           </form>
           <div class="check-contain">
             <input class="check" type="checkbox" name="" id="" />
             <label>Allow Name to send you notifications</label>
           </div>
+        </div>
+        <div class="btn-contain">
+          <button class="btn submit-btn">Submit</button>
         </div>
       </div>
     </div>
