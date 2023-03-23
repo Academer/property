@@ -22,10 +22,12 @@ body {
 }
 
 .images-content {
+  height: 100vh;
   background-color: #fff;
 }
 
 .login-section {
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
