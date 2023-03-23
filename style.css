@@ -590,39 +590,37 @@ select {
 }
 
 .link-list:hover,
-.link-list:active{
-  color:#999;
+.link-list:active {
+  color: #999;
 }
 
 .foot-para {
   color: #fff;
   font-size: 1.6rem;
-  margin-bottom: 0.8rem;+
-
+  margin-bottom: 0.8rem;
 }
 
-.icon-footer{
-  color:#fff;
-  width:2rem;
-  height:2rem;
+.icon-footer {
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
 }
 
-.icon-container{
-  display:flex;
-  gap:1rem;
+.icon-container {
+  display: flex;
+  gap: 1rem;
 }
-footer{
+footer {
   padding-bottom: 3rem !important;
 }
-.copyright{
+.copyright {
   background-color: #333;
-  padding: 1rem 3rem 3rem  3rem !important;
+  padding: 1rem 3rem 3rem 3rem !important;
   /* width: 120rem; */
   margin: 0 auto;
 }
-.copyright p{
+.copyright p {
   text-align: center;
   font-size: 1.8rem;
   color: #fff;
-
 }
