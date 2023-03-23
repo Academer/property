@@ -26,8 +26,12 @@ body {
 .hero-section {
   background-image: url("img/hero mohali.webp");
   background-size: cover;
+  /* width: 100vh; */
   background-repeat: none;
   height: 100vh;
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* aspect-ratio: 16/9; */
   /* width: 100%; */
 }
 
