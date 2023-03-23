@@ -258,6 +258,11 @@ main {
     height: auto;
     overflow-x: hidden;
   }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
   aside {
     width: 22rem;
     position: sticky;
@@ -277,6 +282,20 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  .hero-section {
+    background-image: url("img/hero mohali.webp");
+    background-size: cover;
+    width: 95vw !important;
+    background-repeat: none;
+    background-position: center;
+    height: 100vh;
+    margin: 0 auto;
+    /* display: none !important; */
+
+    /* aspect-ratio: 24/9; */
+    /* width: 100%; */
   }
 }
 
