@@ -301,6 +301,20 @@ main {
   .hero-section {
     background-size: 100%;
   }
+
+  .for-free {
+    width: 100vw !important;
+    padding-left: 2rem !important;
+  }
+
+  .advice-section {
+    margin-left: 2rem !important;
+    overflow-x: scroll;
+  }
+
+  .boxes {
+    overflow-x: scroll !important;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -331,6 +345,15 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+    padding-left: 2rem !important;
+  }
+
+  .advice-section {
+    margin-left: 2rem !important;
+  }
 }
 @media screen and (max-width: 1050px) {
   * {
@@ -359,6 +382,18 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  .for-free {
+    width: 100vw !important;
+    padding-left: 2rem !important;
+  }
+
+  .advice-section {
+    margin-left: 2rem !important;
+  }
+  .advice-box {
+    overflow: auto !important;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -389,6 +424,10 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+  }
 }
 @media screen and (max-width: 960px) {
   * {
@@ -418,6 +457,10 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+  }
 }
 @media screen and (max-width: 880px) {
   * {
@@ -446,6 +489,24 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  /* for free section */
+
+  .for-free {
+    width: 100vw !important;
+  }
+
+  .heading-free {
+    font-size: 3rem !important;
+  }
+
+  .para-internal {
+    font-size: 1.6rem !important;
+  }
+
+  .free {
+    font-size: 3rem !important;
   }
 }
 @media screen and (max-width: 820px) {
@@ -480,6 +541,10 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+  }
 }
 @media screen and (max-width: 750px) {
   * {
@@ -512,6 +577,10 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  .for-free {
+    width: 100vw !important;
   }
 }
 @media screen and (max-width: 700px) {
@@ -546,6 +615,10 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+  }
 }
 @media screen and (max-width: 650px) {
   * {
@@ -578,6 +651,26 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  .for-free {
+    width: 100vw !important;
+  }
+
+  .heading-free {
+    font-size: 2.4rem !important;
+  }
+
+  .para-internal {
+    font-size: 1.4rem !important;
+  }
+
+  .free {
+    font-size: 2.4rem !important;
+  }
+
+  .btn-free {
+    font-size: 1.2rem !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -612,6 +705,10 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+  }
 }
 @media screen and (max-width: 550px) {
   * {
@@ -644,6 +741,10 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  .for-free {
+    width: 100vw !important;
   }
 }
 @media screen and (max-width: 500px) {
@@ -678,8 +779,30 @@ main {
   main .head {
     padding-left: 0;
   }
+
+  .for-free {
+    width: 100vw !important;
+  }
+
+  .heading-free {
+    font-size: 2.2rem !important;
+  }
+
+  .para-internal {
+    font-size: 1.4rem !important;
+  }
+
+  .free {
+    font-size: 2.2rem !important;
+  }
+
+  .btn-free {
+    font-size: 1.2rem !important;
+    padding: 1.4rem 1.8rem !important;
+    margin-left: 2rem !important;
+  }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   * {
     font-size: 30%;
   }
@@ -727,5 +850,43 @@ main {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+  }
+
+  .for-free {
+    width: 100vw !important;
+  }
+
+  .heading-free {
+    font-size: 2.2rem !important;
+  }
+
+  .para-internal {
+    font-size: 1.4rem !important;
+  }
+
+  .free {
+    font-size: 2.2rem !important;
+  }
+
+  .btn-free {
+    font-size: 1.2rem !important;
+    padding: 0.8rem 1.2rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .advice-box {
+    display: grid !important;
+    /* grid-template-rows: 1fr !important; */
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    overflow: scroll !important;
+    width: 95vw !important;
+  }
+
+  .advice-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .boxes {
+    min-width: 25rem !important;
   }
 }
