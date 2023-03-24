@@ -920,3 +920,72 @@ footer {
 .searchbar2 input:focus {
   border-bottom: 1.5px solid #000000;
 }
+.searchbar2 {
+  /* width: 140rem; */
+  width: max-content;
+  margin: 5rem 10rem;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.sb1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sb1 label {
+  font-size: 1.8rem;
+}
+.inputcb input {
+  border-bottom: 1.5px solid #00000070;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  font-size: 1.6rem;
+  width: 30rem;
+}
+.inputcb select {
+  border-bottom: 1.5px solid #00000070;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  font-size: 1.6rem;
+  width: 30rem;
+}
+.inputcb {
+  position: relative;
+}
+.searchicon {
+  font-size: 2rem;
+  position: absolute;
+  left: 0.3rem;
+  bottom: 0.6rem;
+}
+.searchicon2 {
+  font-size: 2rem;
+}
+
+.locat {
+  position: absolute;
+  right: 0.3rem;
+  bottom: 0.6rem;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  background-color: #33333330;
+}
+
+.searchbar2 a {
+  align-self: flex-end;
+  padding: 1.5rem 3rem;
+}
+.locat:hover {
+  cursor: pointer;
+  background-color: #33333350;
+}
+.searchbar2 input:focus {
+  border-bottom: 1.5px solid #000000;
+}
