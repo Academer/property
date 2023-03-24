@@ -785,3 +785,67 @@ footer {
 .emptyStar {
   color: #ccc !important;
 }
+
+/* ///////////////////////////// */
+
+.bg-image {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("img/r-architecture-pzMghCq2kS0-unsplash.jpg");
+  background-size: 100%;
+  background-position: center;
+  width: 100vw;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.box-3-section {
+  display: flex;
+  gap: 2rem;
+  /* padding: 0 20rem; */
+  width: 120rem;
+
+  /* width: 120rem;
+  margin: 10rem auto; */
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  background-color: rgba(33, 33, 33, 0.85);
+  border-radius: 1rem;
+  /* background-color: #fff; */
+}
+
+.head-3 {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.box-3-head {
+  font-size: 1.6rem;
+  color: #444;
+}
+
+.box-3-para {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.box-3-btn {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  background-color: #e6b328;
+}

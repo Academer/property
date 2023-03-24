@@ -297,6 +297,10 @@ main {
     /* aspect-ratio: 24/9; */
     /* width: 100%; */
   }
+
+  .hero-section {
+    background-size: 100%;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -717,5 +721,11 @@ main {
 
   main .head {
     padding-left: 0;
+  }
+
+  .hero-section {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
   }
 }
