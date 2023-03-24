@@ -9,8 +9,9 @@
 
     <script
       type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -83,7 +84,8 @@
               required
               class="input-box"
               type="text"
-              placeholder="Locality*" />
+              placeholder="Locality*"
+            />
           </div>
 
           <div class="icon-container">
@@ -91,7 +93,8 @@
             <input
               class="input-box"
               type="text"
-              placeholder="Project Name (Optional)" />
+              placeholder="Project Name (Optional)"
+            />
           </div>
 
           <p class="unit-head">Unit Types*</p>
@@ -109,7 +112,8 @@
               required
               class="input-box"
               type="text"
-              placeholder="Built up* (Sq.Ft)" />
+              placeholder="Built up* (Sq.Ft)"
+            />
           </div>
 
           <div class="icon-container">
@@ -118,23 +122,41 @@
               required
               class="input-box"
               type="text"
-              placeholder="Carpet Area* (Sq.Ft)" />
+              placeholder="Carpet Area* (Sq.Ft)"
+            />
           </div>
         </form>
 
         <div class="frame">
-          <div class="center">
-            <div class="dropzone">
-              <img
-                src="http://100dayscss.com/codepen/upload.svg"
-                class="upload-icon" />
-              <input type="file" class="upload-input" />
-            </div>
+          <!-- <div class="center"> -->
+          <form id="dropFileForm">
+            <input class="ok" type="file" name="files[]" id="fileInput" />
 
-            <button type="button" class="btn" name="uploadbutton">
-              Upload file
-            </button>
-          </div>
+            <label
+              for="fileInput"
+              id="fileLabel"
+              ondragover="overrideDefault(event);fileHover();"
+              ondragenter="overrideDefault(event);fileHover();"
+              ondragleave="overrideDefault(event);fileHoverEnd();"
+              ondrop="overrideDefault(event);fileHoverEnd();
+        addFiles(event);"
+            >
+              <!-- <i class="fa fa-download fa-5x"></i> -->
+              <!-- <br /> -->
+              <span id="fileLabelText"> Choose a file or drag it here </span>
+              <!-- <br /> -->
+              <div class="convert op">
+                <p>Converting</p>
+                <div class="spinner rounded-circle"></div>
+              </div>
+              <!-- <span id="uploadStatus"></span> -->
+            </label>
+
+            <!-- <button class="uploadButton" onclick="uploadFiles(event)">
+          Compress
+        </button> -->
+          </form>
+          <!-- </div> -->
           <p class="para-photo">
             Photos 0/15 Increase your chances of getting genuine responses by
             adding atleast 5 images. Hall, Bedroom, Kitchen, and Bathroom images
@@ -155,7 +177,8 @@
           <h3 class="about-heading">More Information about Property</h3>
           <textarea
             type="text"
-            placeholder="About property (min 30 characters)"></textarea>
+            placeholder="About property (min 30 characters)"
+          ></textarea>
         </div>
 
         <div class="furnish">
@@ -221,5 +244,6 @@
         </div>
       </div>
     </div>
+    <script src="./form.js"></script>
   </body>
 </html>
