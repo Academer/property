@@ -842,12 +842,14 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: #fff;
+  text-align: center;
 }
 
 .box-3-btn {
   font-size: 1.6rem;
   padding: 1rem 2rem;
   background-color: #e6b328;
+  border-radius: 0.4rem;
 }
 .searchbar2 {
   /* width: 140rem; */
