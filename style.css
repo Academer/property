@@ -20,9 +20,11 @@ html {
 body {
   color: #333;
 }
+
 #location {
   font-size: 1.4rem;
 }
+
 .hero-section {
   background-image: url("img/hero mohali.webp");
   background-size: cover;
@@ -55,6 +57,7 @@ body {
   display: flex;
   gap: 1rem;
 }
+
 .link {
   font-size: 1.5rem;
 }
@@ -63,6 +66,7 @@ body {
   width: 2.4rem;
   height: 2.4rem;
 }
+
 .company-name {
   display: flex;
   align-items: center;
@@ -154,9 +158,11 @@ a {
 select {
   border: none;
 }
+
 .link:hover {
   color: #666;
 }
+
 .search input {
   border: none;
   /* text-align: center; */
@@ -183,6 +189,7 @@ select {
   padding: 1rem 2rem;
   column-gap: 2rem;
 }
+
 .search-bottom select {
   font-size: 1.5rem;
 }
@@ -209,6 +216,7 @@ select {
   font-size: 1.7rem;
   padding: 1.5rem 1.5rem;
 }
+
 .search-list a:hover {
   background-color: #33333350;
   /* color: #fff; */
@@ -279,6 +287,11 @@ select {
   margin-bottom: 1.4rem;
 }
 
+/* .loan-icon {
+  width: 2.7rem;
+  height: 2.7rem;
+} */
+
 .box-heading {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -290,7 +303,8 @@ select {
 }
 
 .advice-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
@@ -372,6 +386,7 @@ select {
 .rvw2 {
   padding-right: 2rem;
 }
+
 .rvw1 img {
   width: 5rem;
   border-radius: 50%;
@@ -413,6 +428,7 @@ select {
 .onetwothreefour ion-icon {
   font-size: 2.6rem;
 }
+
 .onetwothreefour p {
   font-size: 1.6rem;
   width: 2.6rem;
@@ -431,6 +447,7 @@ select {
   background-color: #022022 !important;
   color: #fff !important;
 }
+
 .inspired {
   padding: 10rem 0;
   width: 120rem;
@@ -459,6 +476,7 @@ select {
   display: flex;
   gap: 2rem;
 }
+
 .inspir1 img {
   height: 32.7rem;
 }
@@ -488,6 +506,7 @@ select {
   height: 20.7rem;
   width: 38.9rem;
 }
+
 .inspir2 {
   display: flex;
   justify-content: space-between;
@@ -497,6 +516,7 @@ select {
 .bxxc {
   padding: 0 !important;
 }
+
 .bccv {
   padding-bottom: 5rem;
   width: 80%;
@@ -554,6 +574,7 @@ select {
   gap: 10rem;
   /* margin: 0 auto; */
 }
+
 .startline {
   height: auto;
   width: 0.2rem;
@@ -613,15 +634,18 @@ select {
   display: flex;
   gap: 1rem;
 }
+
 footer {
   padding-bottom: 3rem !important;
 }
+
 .copyright {
   background-color: #333;
   padding: 1rem 3rem 3rem 3rem !important;
   /* width: 120rem; */
   margin: 0 auto;
 }
+
 .copyright p {
   text-align: center;
   font-size: 1.8rem;
@@ -635,6 +659,7 @@ footer {
   grid-template-columns: 2fr 3fr;
   margin-bottom: -25rem;
 }
+
 .why img {
   width: 80%;
   height: 45%;
@@ -651,11 +676,13 @@ footer {
 .why-content h1 {
   font-size: 2.4rem;
 }
+
 .why-boxes {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+
 .why-box {
   display: flex;
   gap: 2rem;
@@ -665,15 +692,17 @@ footer {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.04);
   transition: all 0.15s;
   cursor: pointer;
-  width: max-content;
+  max-width: 42rem;
   background-color: #fff;
 }
+
 .why-box:hover {
   transition: all 0.15s;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075);
 }
+
 .why-icon {
-  padding: 1rem 1.4rem;
+  padding: 1rem;
   border-radius: 0.7rem;
   /* background-color: #33333320; */
   background-color: #e2ebf2;
@@ -682,36 +711,44 @@ footer {
   justify-content: center;
 }
 
-.why-icon ion-icon {
-  font-size: 2.3rem;
+.why-icon svg {
+  /* font-size: 2.3rem; */
+  width: 2.3rem;
+  height: 2.3rem;
   color: #5a5e61;
 }
+
 .why-box-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .why-box-content h2 {
   font-weight: 500;
   font-size: 1.8rem;
 }
+
 .why-box-content p {
   font-size: 1.6rem;
   /* width: 80%; */
   line-height: 1.6;
   color: #00000070;
 }
+
 .whyr p {
   font-size: 1.6rem;
   width: 80%;
   line-height: 1.6;
   color: #00000070;
 }
+
 .whyr {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
+
 .whyr a {
   font-size: 1.8rem;
   margin: 0;
@@ -723,11 +760,13 @@ footer {
   flex-direction: column;
   gap: 3rem;
 }
+
 .reviewss {
   width: 100vw;
   background-color: #e2ebf2;
   /* background-color: #d9e8e9; */
 }
+
 .customer-review {
   width: 120rem;
   margin: 0 auto;
@@ -736,15 +775,19 @@ footer {
   flex-direction: column;
   gap: 5rem;
 }
+
 .customer-review h1 {
   font-size: 2.4rem;
   text-align: center;
 }
+
 .customer-boxes {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* justify-content: space-between; */
+  column-gap: 2rem;
 }
+
 .customer-box {
   background-color: #fff;
   display: flex;
@@ -754,26 +797,32 @@ footer {
   border-radius: 1rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
 }
+
 .cb1 {
   display: flex;
   gap: 2rem;
 }
+
 .cb1 img {
   width: 5rem;
   border-radius: 50%;
 }
+
 .cbname {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .cbname h1 {
   font-size: 1.8rem;
 }
+
 .cbname p {
   font-size: 1.4rem !important;
   color: #00000090;
 }
+
 .customer-box p {
   font-size: 1.6rem;
   line-height: 1.6;
@@ -784,10 +833,12 @@ footer {
   display: flex;
   gap: 1rem;
 }
+
 .reviewStars ion-icon {
   font-size: 2rem;
   color: gold;
 }
+
 .emptyStar {
   color: #ccc !important;
 }
@@ -795,11 +846,9 @@ footer {
 /* ///////////////////////////// */
 
 .bg-image {
-  background-image: linear-gradient(
-      45deg,
+  background-image: linear-gradient(45deg,
       rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.3)
-    ),
+      rgba(0, 0, 0, 0.3)),
     url("img/r-architecture-pzMghCq2kS0-unsplash.jpg");
   background-size: 100%;
   background-position: center;
@@ -857,11 +906,13 @@ footer {
   background-color: #668fb1;
   border-radius: 0.4rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .box-3-btn:hover {
   background-color: #4d6b85;
 }
+
 .searchbar2 {
   /* width: 140rem; */
   width: max-content;
@@ -872,6 +923,7 @@ footer {
   display: flex;
   gap: 2rem;
 }
+
 .sb1 {
   display: flex;
   flex-direction: column;
@@ -881,6 +933,7 @@ footer {
 .sb1 label {
   font-size: 1.8rem;
 }
+
 .inputcb input {
   border-bottom: 1.5px solid #00000070;
   padding: 0.5rem;
@@ -888,6 +941,7 @@ footer {
   font-size: 1.6rem;
   width: 30rem;
 }
+
 .inputcb select {
   border-bottom: 1.5px solid #00000070;
   padding: 0.5rem;
@@ -895,15 +949,18 @@ footer {
   font-size: 1.6rem;
   width: 30rem;
 }
+
 .inputcb {
   position: relative;
 }
+
 .searchicon {
   font-size: 2rem;
   position: absolute;
   left: 0.3rem;
   bottom: 0.6rem;
 }
+
 .searchicon2 {
   font-size: 2rem;
 }
@@ -924,13 +981,16 @@ footer {
   align-self: flex-end;
   padding: 1.5rem 3rem;
 }
+
 .locat:hover {
   cursor: pointer;
   background-color: #33333350;
 }
+
 .searchbar2 input:focus {
   border-bottom: 1.5px solid #000000;
 }
+
 .searchbar2 {
   /* width: 140rem; */
   width: max-content;
@@ -941,6 +1001,7 @@ footer {
   display: flex;
   gap: 2rem;
 }
+
 .sb1 {
   display: flex;
   flex-direction: column;
@@ -950,6 +1011,7 @@ footer {
 .sb1 label {
   font-size: 1.8rem;
 }
+
 .inputcb input {
   border-bottom: 1.5px solid #00000070;
   padding: 0.5rem;
@@ -957,6 +1019,7 @@ footer {
   font-size: 1.6rem;
   width: 30rem;
 }
+
 .inputcb select {
   border-bottom: 1.5px solid #00000070;
   padding: 0.5rem;
@@ -964,15 +1027,18 @@ footer {
   font-size: 1.6rem;
   width: 30rem;
 }
+
 .inputcb {
   position: relative;
 }
+
 .searchicon {
   font-size: 2rem;
   position: absolute;
   left: 0.3rem;
   bottom: 0.6rem;
 }
+
 .searchicon2 {
   font-size: 2rem;
 }
@@ -993,32 +1059,39 @@ footer {
   align-self: flex-end;
   padding: 1.5rem 3rem;
 }
+
 .locat:hover {
   cursor: pointer;
   background-color: #33333350;
 }
+
 .searchbar2 input:focus {
   border-bottom: 1.5px solid #000000;
 }
+
 .nav {
   position: fixed;
   z-index: 99999;
   /* background-color: #333; */
   width: 100vw;
 }
+
 .scrolled {
   transition: all 0.1s;
   background-color: #00000099;
 }
+
 .scrolled1 {
   transition: all 0.1s;
   padding: 1.3rem 0;
 }
+
 .scrolled a,
 .scrolled span,
 .scrolled button {
   color: #fff !important;
 }
+
 .mobileNav {
   position: absolute;
   top: 0;
@@ -1033,17 +1106,21 @@ footer {
   justify-content: center;
   gap: 2rem;
 }
+
 .mobileNav a {
   font-size: 2rem;
 }
+
 .none {
   display: none;
 }
+
 .closeicon {
   position: absolute;
   top: 3rem;
   right: 4rem;
 }
+
 .areyou {
   width: 120rem;
   margin: 7rem auto;
@@ -1057,9 +1134,11 @@ footer {
   justify-content: center;
   gap: 4rem;
 }
+
 .areyou h1 {
   font-size: 4rem;
 }
+
 .areyou p {
   font-size: 1.8rem;
   color: #00000070;
@@ -1070,6 +1149,7 @@ footer {
   grid-template-columns: 3fr 1.2fr;
   gap: 0.5rem;
 }
+
 .areyoubox input {
   border: none;
   background-color: #fff;
@@ -1077,6 +1157,7 @@ footer {
   border-radius: 1rem;
   font-size: 1.8rem;
 }
+
 .areyoubox button {
   border-radius: 1rem;
   color: #fff;
