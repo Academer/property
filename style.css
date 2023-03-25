@@ -106,7 +106,7 @@ body {
 
 .btn-nav:hover {
   transition: all 0.1s;
-  background-color: #405a6f;
+  background-color: #555;
 }
 
 select {
@@ -247,7 +247,7 @@ select {
 }
 
 .btn-free {
-  background-color: #405a6f;
+  background-color: #333;
   color: #fff;
   font-weight: 600;
   padding: 1.8rem 3.4rem;
@@ -259,7 +259,7 @@ select {
 .btn-free:hover {
   cursor: pointer;
   /* color: #ffc72c; */
-  background-color: #333;
+  background-color: #555;
   /* border: 1px solid #ffc72c; */
 }
 
