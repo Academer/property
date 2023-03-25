@@ -674,7 +674,8 @@ footer {
 .why-icon {
   padding: 1rem 1.4rem;
   border-radius: 0.7rem;
-  background-color: #33333320;
+  /* background-color: #33333320; */
+  background-color: #e2ebf2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -682,7 +683,7 @@ footer {
 
 .why-icon ion-icon {
   font-size: 2.3rem;
-  color: #333;
+  color: #5a5e61;
 }
 .why-box-content {
   display: flex;
@@ -723,7 +724,8 @@ footer {
 }
 .reviewss {
   width: 100vw;
-  background-color: #00ffff30;
+  background-color: #e2ebf2;
+  /* background-color: #d9e8e9; */
 }
 .customer-review {
   width: 120rem;
@@ -1039,7 +1041,8 @@ footer {
 .areyou {
   width: 120rem;
   margin: 7rem auto;
-  background-color: #00ffff50;
+  /* background-color: #d9e8e9; */
+  background-color: #e2ebf2;
   border-radius: 2rem;
   padding: 10rem;
   display: flex;
