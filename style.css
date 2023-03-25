@@ -854,12 +854,13 @@ footer {
 .box-3-btn {
   font-size: 1.6rem;
   padding: 1rem 2rem;
-  background-color: #c0d9ee;
+  background-color: #668fb1;
   border-radius: 0.4rem;
+  color: #fff;
 }
 
 .box-3-btn:hover {
-  background-color: #a6cae7;
+  background-color: #4d6b85;
 }
 .searchbar2 {
   /* width: 140rem; */
