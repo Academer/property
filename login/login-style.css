@@ -92,7 +92,7 @@ form a {
   justify-content: space-between;
   border: 1px #666 solid;
   border-radius: 0.4rem;
-  padding: 0.4rem;
+  padding: 0.5rem;
 }
 
 .icon-email,
@@ -137,12 +137,12 @@ input {
   border: none;
   background-color: #333;
   color: #fff;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 .submit-btn:hover {
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: #555;
+  /* color: #333; */
 }
 
 .or-container {
@@ -151,11 +151,17 @@ input {
   justify-content: center;
 
   padding: 1.2rem;
+  gap: 0.5rem;
 }
-
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #00000020;
+}
 .or-component {
   font-size: 1.8rem;
   text-align: center;
+  color: #00000060;
 }
 
 .otp-login {
@@ -247,7 +253,11 @@ input {
   color: rgb(192, 37, 223);
   /* color: yellow; */
 }
-
+.otpaalabtn {
+  position: absolute;
+  bottom: -3.5rem;
+  right: 0;
+}
 /* Media Queriess */
 
 @media screen and (max-width: 1350px) {
