@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  outline: none;
 }
 
 body {
@@ -24,6 +25,12 @@ body {
 .images-content {
   height: 100vh;
   background-color: #fff;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+
+   */
+  padding-top: 10rem;
 }
 
 .login-section {
@@ -34,7 +41,7 @@ body {
 
 .login-content {
   height: 100%;
-  padding: 4rem 10rem 4rem 10rem;
+  padding: 14rem 10rem 4rem 10rem;
   background-color: #f2f2f2;
 }
 
