@@ -40,11 +40,14 @@ body {
 /* ************************************** */
 
 .navigation-section {
+  transition: all 0.1s;
+  width: 140rem;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding-top: 2rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding: 2rem 0;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
   gap: 2rem;
 }
 
@@ -70,7 +73,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
 }
 
@@ -988,4 +991,48 @@ footer {
 }
 .searchbar2 input:focus {
   border-bottom: 1.5px solid #000000;
+}
+.nav {
+  position: fixed;
+  z-index: 99999;
+  /* background-color: #333; */
+  width: 100vw;
+}
+.scrolled {
+  transition: all 0.1s;
+  background-color: #00000099;
+}
+.scrolled1 {
+  transition: all 0.1s;
+  padding: 1.3rem 0;
+}
+.scrolled a,
+.scrolled span,
+.scrolled button {
+  color: #fff !important;
+}
+.mobileNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.mobileNav a {
+  font-size: 2rem;
+}
+.none {
+  display: none;
+}
+.closeicon {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
 }

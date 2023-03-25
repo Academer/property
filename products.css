@@ -16,6 +16,9 @@ body {
   height: auto;
   width: 100vw;
 }
+.mobicon {
+  display: none;
+}
 aside {
   background-color: #fff;
   width: 25rem;
@@ -1241,11 +1244,34 @@ main {
   }
 
   .hero-section {
+    width: 100vw !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-
+  .links {
+    display: none !important;
+  }
+  /* .company-name {
+    display: none !important;
+  } */
+  .navigation-section {
+    width: 80vw !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .mobicon,
+  .closeicon {
+    display: block;
+    width: 3rem !important;
+    height: 3rem !important;
+    font-size: 13rem !important;
+    padding-left: 3rem;
+  }
+  .chitta {
+    color: #fff;
+  }
   .for-free {
     width: 100vw !important;
   }
@@ -1307,5 +1333,38 @@ main {
   .costumer-review {
     width: 95vw !important;
     margin: 0 auto !important;
+  }
+  .heading-1 {
+    font-size: 4rem !important;
+    /* padding: 0 !important; */
+    text-align: center !important;
+    width: 80vw !important;
+    /* padding-left: 3rem !important; */
+  }
+  .searchbar2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 3rem !important;
+  }
+  .inputcb input {
+    width: 28rem !important;
+  }
+  .inputcb select {
+    width: 28rem !important;
+  }
+  .searchbar2 a {
+    align-self: center !important;
+  }
+  .for-free {
+    width: 95vw !important;
+  }
+  aside {
+    display: none;
+  }
+  main {
+    margin-left: -3.5rem;
+  }
+  .copyright {
+    margin: 0 !important;
   }
 }
