@@ -853,7 +853,8 @@ footer {
 .box-3-btn {
   font-size: 1.6rem;
   padding: 1rem 2rem;
-  background-color: #e6b328;
+  background-color: rgb(190, 243, 294);
+  /* background-color: #e2ebf2; */
   border-radius: 0.4rem;
 }
 .searchbar2 {
