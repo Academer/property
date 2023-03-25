@@ -1036,3 +1036,41 @@ footer {
   top: 3rem;
   right: 4rem;
 }
+.areyou {
+  width: 120rem;
+  margin: 7rem auto;
+  background-color: #00ffff50;
+  border-radius: 2rem;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.areyou h1 {
+  font-size: 4rem;
+}
+.areyou p {
+  font-size: 1.8rem;
+  color: #00000070;
+}
+
+.areyoubox {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr;
+  gap: 0.5rem;
+}
+.areyoubox input {
+  border: none;
+  background-color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+}
+.areyoubox button {
+  border-radius: 1rem;
+  color: #fff;
+  margin: 0;
+  font-size: 1.8rem;
+}

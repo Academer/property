@@ -1367,4 +1367,16 @@ main {
   .copyright {
     margin: 0 !important;
   }
+  .areyou {
+    width: 95vw !important;
+    padding: 5rem 1rem !important;
+    align-items: center !important;
+  }
+  .areyou h1 {
+    text-align: center !important;
+  }
+  .areyoubox {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+  }
 }
