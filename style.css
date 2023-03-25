@@ -106,7 +106,7 @@ body {
 
 .btn-nav:hover {
   transition: all 0.1s;
-  background-color: #555;
+  background-color: #405a6f;
 }
 
 select {
@@ -217,7 +217,7 @@ select {
 /* ////////////////////////// */
 
 .for-free {
-  background-color: #fff8e2;
+  background-color: #e2ebf2;
   color: #333;
   width: 120rem;
   margin: 0 auto;
@@ -247,7 +247,8 @@ select {
 }
 
 .btn-free {
-  background-color: #ffc72c;
+  background-color: #405a6f;
+  color: #fff;
   font-weight: 600;
   padding: 1.8rem 3.4rem;
   border-radius: 3rem;
@@ -258,7 +259,7 @@ select {
 .btn-free:hover {
   cursor: pointer;
   /* color: #ffc72c; */
-  background-color: #e6b328;
+  background-color: #333;
   /* border: 1px solid #ffc72c; */
 }
 
@@ -308,7 +309,7 @@ select {
   top: 1rem;
   right: 1rem;
   font-size: 1.4rem;
-  background-color: #ffc72c;
+  background-color: #c0d9ee;
   padding: 0.4rem 0.8rem;
   font-weight: 600;
   border-radius: 0.2rem;
@@ -853,8 +854,12 @@ footer {
 .box-3-btn {
   font-size: 1.6rem;
   padding: 1rem 2rem;
-  background-color: #e6b328;
+  background-color: #c0d9ee;
   border-radius: 0.4rem;
+}
+
+.box-3-btn:hover {
+  background-color: #a6cae7;
 }
 .searchbar2 {
   /* width: 140rem; */
