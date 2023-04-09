@@ -865,8 +865,10 @@ footer {
 }
 
 .box-3-section {
-  display: flex;
-  gap: 2rem;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
   /* padding: 0 20rem; */
   width: 120rem;
 
